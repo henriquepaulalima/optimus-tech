@@ -3,3 +3,13 @@
 body {
     background: #fff;
 }
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --gray-light: #667085;
+    --gray-dark: #434956;
+    --red-light: #b72c2c;
+    --red-dark: #8E2424;
+    --inter: 'Inter', sans-serif;
+}

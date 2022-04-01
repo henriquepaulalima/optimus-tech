@@ -1,0 +1,30 @@
+.about-us-subheading, .about-us-title, .about-us-content {
+    font-family: var(--inter);
+}
+
+.about-us-container {
+    text-align: center;
+    margin: 10rem;
+}
+
+.about-us-item {
+    margin: 2rem 10rem;
+}
+
+.about-us-subheading {
+    font-weight: 700;
+    color: var(--red-dark);
+    font-size: 1rem;
+}
+
+.about-us-title {
+    font-weight: 700;
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.about-us-content {
+    font-weight: 500;
+    color: var(--gray-light);
+    font-size: 1.25rem;
+}

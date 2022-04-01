@@ -28,37 +28,37 @@
 }
 
 .nav-item_list_item a {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--inter);
     font-size: 1rem;
     font-weight: 500;
-    color: #667085;
+    color: var(--gray-light);
 }
 
 .nav-item_list_item a:hover {
-    color: #434956;
+    color: var(--gray-dark);
 }
 
 .nav-item_button {
     border: none;
-    background: #fff;
+    background: var(--white);
     border-radius: 8px;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--inter);
     font-size: 1rem;
     font-weight: 500;
-    color: #667085;
+    color: var(--gray-light);
     padding: .75rem 1.25rem;
     margin: 0 .25rem;
 }
 
 .nav-item_button:hover {
-    color: #434956;
+    color: var(--gray-dark);
 }
 
 .nav-item_button:nth-child(2) {
-    background-color: #8E2424;
-    color: #fff;
+    background-color: var(--red-dark);
+    color: var(--white);
 }
 
 .nav-item_button:nth-child(2):hover {
-    background-color: #b72c2c;
+    background-color: var(--red-light);
 }
