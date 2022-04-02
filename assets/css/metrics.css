@@ -1,0 +1,36 @@
+.metrics-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 4rem 2rem;
+}
+
+.metrics-item {
+    margin: 0 1rem;
+}
+
+.metrics-item_title, .metrics-item_subtitle, .metrics-item_content {
+    text-align: center;
+    font-family: var(--inter);
+    margin: 1rem 2rem;
+}
+
+.metrics-item_title {    
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: var(--red-dark);
+}
+
+.metrics-item_subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.metrics-item_content {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--gray-light);
+}
