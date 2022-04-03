@@ -1,0 +1,40 @@
+.open-jobs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem;
+}
+
+.open-jobs-item {
+
+}
+
+.open-jobs-item_subheading, .open-jobs-item_title, .open-jobs-item_content {
+    font-family: var(--inter);
+    text-align: center;
+    margin: 1rem 2rem;
+}
+
+.open-jobs-item_subheading {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--red-dark);
+}
+
+.open-jobs-item_title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.open-jobs-item_content {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--gray-light);
+}
+
+.open-jobs-item_image {
+    height: 100%;
+    width: 100%;
+    margin: 3rem auto;
+}
