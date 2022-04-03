@@ -5,10 +5,6 @@
     margin: 10rem;
 }
 
-.open-jobs-item {
-
-}
-
 .open-jobs-item_subheading, .open-jobs-item_title, .open-jobs-item_content {
     font-family: var(--inter);
     text-align: center;
