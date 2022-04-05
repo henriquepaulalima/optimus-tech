@@ -1,0 +1,41 @@
+.jobs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 10rem;
+    width: 50%;
+}
+
+.jobs-item {
+    margin: 1rem;
+}
+
+.jobs-item_title, .jobs-item_jobs_title, .jobs-item_jobs_content {
+    font-family: var(--inter);
+    text-align: start;
+    margin: 1rem 2rem;
+}
+
+.jobs-item_title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.jobs-item_jobs {
+    margin: 3rem 1rem;
+}
+
+.jobs-item_jobs_title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black);
+    margin: 3rem;
+}
+
+.jobs-item_jobs_content {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gray-light);
+    margin: 3rem;
+}
