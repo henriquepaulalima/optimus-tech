@@ -1,0 +1,45 @@
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem;
+}
+
+.feedback-item {
+    font-family: var(--inter);
+    text-align: center;
+    margin: 1rem 2rem;
+}
+
+.feedback-item_subheading {
+    font-size: .85rem;
+    font-weight: 700;
+    color: var(--red-dark);
+    margin: 1rem 2rem;
+}
+
+.feedback-item_title {
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--black);
+    margin: 1rem 2rem;
+}
+
+.feedback-item_image {  
+    height: 56px;
+    width: 56px;
+}
+
+.feedback-item_name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black);
+    margin: .5rem 2rem;
+}
+
+.feedback-item_job {
+    font-size: .85rem;
+    font-weight: 400;
+    color: var(--gray-light);
+    margin: .5rem 2rem;
+}
