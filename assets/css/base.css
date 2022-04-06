@@ -7,6 +7,7 @@ body {
 :root {
     --white: #fff;
     --black: #000;
+    --gray-extra-light: #98A2B3;
     --gray-light: #667085;
     --gray-dark: #434956;
     --red-light: #b72c2c;
