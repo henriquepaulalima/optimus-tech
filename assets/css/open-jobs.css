@@ -16,7 +16,7 @@
 
 .open-jobs-item_subheading {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 700;
     color: var(--red-dark);
 }
 
@@ -39,5 +39,8 @@
 }
 
 @media screen and (max-width: 760px) {
-    
+    .open-jobs-item_subheading {
+        font-size: 1.5rem;
+        margin: auto 0;
+    }
 }
