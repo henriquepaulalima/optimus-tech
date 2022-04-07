@@ -5,9 +5,12 @@
     margin: 1rem 5rem;
 }
 
+.open-jobs-item {
+    text-align: center;
+}
+
 .open-jobs-item_subheading, .open-jobs-item_title, .open-jobs-item_content {
     font-family: var(--inter);
-    text-align: center;
     margin: 1rem 2rem;
 }
 
@@ -33,4 +36,8 @@
     height: 100%;
     width: 100%;
     margin: 3rem auto;
+}
+
+@media screen and (max-width: 760px) {
+    
 }

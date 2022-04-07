@@ -62,3 +62,19 @@
 .nav-item_button:nth-child(2):hover {
     background-color: var(--red-light);
 }
+
+@media screen and (max-width: 760px) {
+    .nav-container {        
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-item {
+        padding: 1rem;
+    }
+
+    .nav-item:nth-child(2) {
+        display: none;
+    }
+}

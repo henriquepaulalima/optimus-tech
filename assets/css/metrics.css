@@ -34,3 +34,11 @@
     font-weight: 400;
     color: var(--gray-light);
 }
+
+@media screen and (max-width: 760px) {
+    .metrics-container {
+        align-items: center;
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+}

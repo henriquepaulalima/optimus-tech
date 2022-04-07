@@ -3,6 +3,10 @@
 }
 
 .about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     text-align: center;
     margin: 10rem;
 }
@@ -12,19 +16,33 @@
 }
 
 .about-us-subheading {
+    font-size: 1rem;
     font-weight: 700;
     color: var(--red-dark);
-    font-size: 1rem;
 }
 
 .about-us-title {
+    font-size: 3rem;
     font-weight: 700;
     color: var(--black);
-    font-size: 3rem;
 }
 
 .about-us-content {
+    font-size: 1.25rem;
     font-weight: 500;
     color: var(--gray-light);
-    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 760px) {
+    .about-us-subheading {
+        font-size: 1.5rem;
+    }
+
+    .about-us-title {
+        font-size: 2.5rem;
+    }
+
+    .about-us-item {
+        margin: 1rem 5rem;
+    }
 }
