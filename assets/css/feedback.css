@@ -43,3 +43,23 @@
     color: var(--gray-light);
     margin: .5rem 2rem;
 }
+
+@media screen and (max-width: 760px) {
+    .feedback-container {
+        margin: 5rem 10rem;
+    }    
+
+    .feedback-item_subheading {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .feedback-item_title {
+        font-size: 2rem;
+    }
+
+    .feedback-item_image {  
+        height: 76px;
+        width: 76px;
+    }
+}

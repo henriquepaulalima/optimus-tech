@@ -39,3 +39,18 @@
     color: var(--gray-light);
     margin: 3rem;
 }
+
+@media screen and (max-width: 760px) {
+    .jobs-container {
+        margin: 0;
+        width: 100%;
+    }
+
+    .jobs-item_jobs_title {
+        margin: 1rem;
+    }
+
+    .jobs-item_jobs_content {
+        margin: 1rem;
+    }
+}

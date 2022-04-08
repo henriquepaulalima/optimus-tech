@@ -59,3 +59,13 @@
     font-weight: 400;
     color: var(--gray-extra-light);
 }
+
+@media screen and (max-width: 760px) {
+    .footer-item_form {
+        flex-direction: column;
+    }
+
+    .footer-item_input {
+        padding: .75rem 2rem;
+    }
+}

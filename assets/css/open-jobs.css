@@ -43,4 +43,12 @@
         font-size: 1.5rem;
         margin: auto 0;
     }
+
+    .open-jobs-item_content {
+        margin: 1rem;
+    }
+
+    .open-jobs-item_image {
+        width: 90vw;
+    }
 }
